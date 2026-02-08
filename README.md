@@ -12,18 +12,6 @@ This project focuses on the early detection of Chronic Kidney Disease (CKD) usin
 ![app_screenshot.png](app_screenshot_1.png)
 ![app_screenshot.png](app_screenshot_2.png)
 
-# Project Structure:
-
-Predicting_chronic_kidney_disease/
-├── Data/                   # Raw and cleaned datasets (Excel/CSV)
-├── Src/                    # Source code modules
-│   ├── preprocessing.py    # Data cleaning and feature engineering
-│   ├── train.py            # Model training and evaluation logic
-│   └── model_pipeline.pkl  # Serialized production-ready model
-├── main.py                 # Streamlit application entry point
-├── requirements.txt        # List of dependencies
-└── README.md               # Documentation
-
 # Technical Stack:
 + Language: Python (Pandas, NumPy)
 + Machine learning: Scikit-learn (Random Forest)
